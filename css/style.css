@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 #first-section {
@@ -76,5 +77,14 @@ body {
 }
 
 .social-media{
-    
+    padding: 16px 16px;
+}
+
+.social-media a{
+  margin: 16px 8px;
+  transition: all .3s ease-in-out;
+}
+
+.social-media a:hover{
+  opacity: 0.8;
 }
